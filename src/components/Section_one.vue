@@ -19,7 +19,8 @@
 export default {
   data() {
     return {
-      img_bicycle: '/imgs/Bicycle-PNG-Image 1.png'
+    //   img_bicycle: '/imgs/Bicycle-PNG-Image 1.png'
+      img_bicycle : new URL('/imgs/Bicycle-PNG-Image 1.png', import.meta.url).href
     }
   }
 }

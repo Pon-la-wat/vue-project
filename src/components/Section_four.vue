@@ -28,9 +28,12 @@
 <script>
 export default {
   data() {
-    return {
-      img_bicycle: '/imgs/Bicycle-PNG-Image 1.png'
+    return { 
+        img_bicycle : new URL('/imgs/Bicycle-PNG-Image 1.png', import.meta.url).href
     }
+    // return {
+    //   img_bicycle: '/imgs/Bicycle-PNG-Image 1.png'
+    // }
   }
 }
 </script>

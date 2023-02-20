@@ -22,7 +22,8 @@
 export default {
   data() {
     return {
-      img_logo: '/imgs/kindpng_546104 2.png'
+    //   img_logo: '/imgs/kindpng_546104 2.png'
+      img_logo : new URL('/imgs/kindpng_546104 2.png', import.meta.url).href
     }
   }
 }

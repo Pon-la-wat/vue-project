@@ -21,7 +21,8 @@
 export default {
   data() {
     return {
-      img_ellipse: '/imgs/Ellipse 10.png'
+    //   img_ellipse: '/imgs/Ellipse 10.png'
+      img_ellipse : new URL('/imgs/Ellipse 10.png', import.meta.url).href
     }
   }
 }
